@@ -66,4 +66,10 @@ loadstring(game:HtpGet("https://rawscripts.net/raw/Blox-Fruits-W-azure-v2-new-12
 getgenv().AutoLoad = true
 loadstring(game:Htt
    end
- })
+ })    AddButton(Tab1o, {
+     Name ="w-aure",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
+    end
+  })
