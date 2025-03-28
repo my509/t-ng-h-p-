@@ -71,5 +71,5 @@ loadstring(game:Htt
     Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
-    end
-  })
+   end
+ })
