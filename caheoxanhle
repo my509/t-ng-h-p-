@@ -52,10 +52,18 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
-  })    AddButton(Tab1o, {
+  })   AddButton(Tab1o, {
      Name = "banana cat hub",
     Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
   end
-})
+})   AddButton(Tab1o, {
+     Name ="w-aure",
+    Callback = function()
+
+loadstring(game:HtpGet("https://rawscripts.net/raw/Blox-Fruits-W-azure-v2-new-12336"))getgenv().Team = "Pirates"
+getgenv().AutoLoad = true
+loadstring(game:Htt
+   end
+ })
