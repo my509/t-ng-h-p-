@@ -1,0 +1,30 @@
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/UiRedzV5/refs/heads/main/DemoUi.lua"))();
+
+  local Window = MakeWindow({
+         Hub = {
+         Title = "caheoxanhle",
+         Animation = "Script caheoxanhle"
+         },
+        Key = {
+        KeySystem = true,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"21072010"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image ="http://www.roblox.com/asset/?id=138927172047679",
+       Size = {40, 40},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
