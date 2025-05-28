@@ -1,0 +1,48 @@
+getgenv().VxezeHubConfig = {
+    ["Auto Collect Plants"] = true,
+    ["Auto Collect Moonlit Fruit"] = false,
+    ["Auto Collect Blood Fruit"] = false,
+    ["Loop Auto Sell"] = true,
+
+    ["Auto Buy M+ Seeds"] = false,
+    ["Auto Buy Selected Seeds"] = true,
+    ["Select All Seeds"] = true,
+    ["SelectedSeedsToBuy"] = {
+        ["Apple"] = false, ["Bamboo"] = false, ["Beanstalk"] = false, ["Blueberry"] = false,
+        ["Cacao"] = false, ["Cactus"] = false, ["Carrot"] = false, ["Coconut"] = false,
+        ["Corn"] = false, ["Daffodil"] = false, ["Dragon Fruit"] = false, ["Grape"] = false,
+        ["Mango"] = false, ["Mushroom"] = false, ["Orange"] = false, ["Pepper"] = false,
+        ["Pumpkin"] = false, ["Strawberry"] = false, ["Tomato"] = false, ["Watermelon"] = false
+    },
+
+    ["Auto Buy Blood"] = false,
+    ["Select All Blood Items"] = true,
+    ["SelectedBloodItemsToBuy"] = {
+        ["Blood Banana"] = false, ["Blood Hedgehog"] = false, ["Blood Kiwi"] = false, ["Blood Owl"] = false,
+        ["Moon Melon"] = false, ["Mysterious Crate"] = false, ["Night Egg"] = false,
+        ["Night Seed Pack"] = false, ["Star Caller"] = false
+    },
+
+    ["Auto Buy Eggs"] = false,
+    ["Eggs"] = {
+        ["Common"] = true, ["Uncommon"] = true, ["Rare"] = true,
+        ["Legendary"] = true, ["Mythical"] = true, ["Bug"] = true,
+    },
+    ["Auto Plant All Seeds"] = true,
+    ["Select All Plantable Seeds"] = true,
+    ["SelectedSeedsToPlant"] = {
+        ["Apple"] = false, ["Bamboo"] = false, ["Beanstalk"] = false, ["Blueberry"] = false,
+        ["Cacao"] = false, ["Cactus"] = false, ["Carrot"] = false, ["Coconut"] = false,
+        ["Corn"] = false, ["Daffodil"] = false, ["Dragon Fruit"] = false, ["Grape"] = false,
+        ["Mango"] = false, ["Mushroom"] = false, ["Orange"] = false, ["Pepper"] = false,
+        ["Pumpkin"] = false, ["Strawberry"] = false, ["Tomato"] = false, ["Watermelon"] = false
+    },
+
+    ["Auto Submit Moonlit"] = false,
+    ["Anti-AFK"] = true,
+    ["Player NoClip"] = true,
+    ["Camera NoClip"] = true,
+    ["Continuous E Hold"] = true,
+    ["Auto Max Zoom"] = true,
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubGrowAGardenKaitun.lua"))()
